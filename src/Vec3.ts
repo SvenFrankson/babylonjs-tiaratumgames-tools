@@ -254,7 +254,7 @@ export function StepToRef(from: Vector3, to: Vector3, step: number, ref: Vector3
     return ref;
 }
 
-export function Step(from: Vector3, to: Vector3, step: number): Vector3 {
+export function StepVec3(from: Vector3, to: Vector3, step: number): Vector3 {
     let v = Vector3.Zero();
     StepToRef(from, to, step, v);
     return v;

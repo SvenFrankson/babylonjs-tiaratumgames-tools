@@ -1,14 +1,15 @@
 {
-  "name": "babylonjs-geometry-kit",
-  "version": "0.0.4",
+  "name": "babylonjs-tiaratumgames-tools",
+  "version": "0.1.3",
   "type": "module",
-  "main": "./dist/babylonjs-geometry-kit.umd.cjs",
-  "module": "./dist/babylonjs-geometry-kit.js",
-  "types": "./dist/babylonjs-geometry-kit.d.ts",
+  "main": "./dist/babylonjs-tiaratumgames-tools.umd.cjs",
+  "module": "./dist/babylonjs-tiaratumgames-tools.js",
+  "types": "./dist/babylonjs-tiaratumgames-tools.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/babylonjs-geometry-kit.js",
-      "require": "./dist/babylonjs-geometry-kit.umd.cjs"
+      "import": "./dist/babylonjs-tiaratumgames-tools.js",
+      "require": "./dist/babylonjs-tiaratumgames-tools.umd.cjs",
+      "types": "./dist/babylonjs-tiaratumgames-tools.d.ts"
     }
   },
   "files": [
@@ -29,6 +30,7 @@
     "vite": "^8.0.0-beta.13"
   },
   "dependencies": {
-    "@babylonjs/core": "^8.50.2"
+    "@babylonjs/core": "*",
+    "@babylonjs/loaders": "*"
   }
 }
