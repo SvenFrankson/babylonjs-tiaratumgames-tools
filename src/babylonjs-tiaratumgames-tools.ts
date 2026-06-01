@@ -2,6 +2,7 @@ export * from "./AnimationFactory";
 export * from "./Collider";
 export * from "./Debug";
 export * from "./Intersection";
+export * from "./MeshBuilder";
 export * from "./Number";
 export * from "./Quaternion";
 export * from "./Vec3";
