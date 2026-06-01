@@ -1,4 +1,5 @@
-import { Vector3, Color3, Quaternion } from "@babylonjs/core";
+import { Color3 } from "@babylonjs/core/Maths/math.color";
+import { Quaternion, Vector3 } from "@babylonjs/core/Maths/math.vector";
 import type { Scene } from "@babylonjs/core/scene";
 import { LerpAngle } from "./Number";
 

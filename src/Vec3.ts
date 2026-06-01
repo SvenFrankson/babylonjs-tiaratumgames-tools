@@ -1,4 +1,6 @@
-import { Axis, Quaternion, Ray, Vector3 } from "@babylonjs/core";
+import { Axis } from "@babylonjs/core/Maths/math.axis";
+import { Quaternion, Vector3 } from "@babylonjs/core/Maths/math.vector";
+import { Ray } from "@babylonjs/core/Culling/ray";
 
 var TmpVec3 = [Vector3.Zero(), Vector3.Zero(), Vector3.Zero(), Vector3.Zero(), Vector3.Zero()];
 

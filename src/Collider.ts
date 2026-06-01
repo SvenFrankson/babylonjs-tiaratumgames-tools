@@ -1,4 +1,7 @@
-import { Vector3, Mesh, Ray, TransformNode, Matrix } from "@babylonjs/core";
+import { Ray } from "@babylonjs/core/Culling/ray";
+import { Matrix, Vector3 } from "@babylonjs/core/Maths/math.vector";
+import { Mesh } from "@babylonjs/core/Meshes/mesh";
+import { TransformNode } from "@babylonjs/core/Meshes/transformNode";
 import { type IIntersection, SpherePlaneIntersection, SphereBoxIntersection, SphereCapsuleIntersection, SphereMeshIntersection, Intersection, RayPlaneIntersection, RayMeshIntersection, type IPlane, type ISphere, type IBox, type ICylinder, type ICapsule } from "./Intersection";
 
 export function SphereCollidersIntersection(cSphere: Vector3, rSphere: number, colliders: (Collider | Mesh)[]): IIntersection[] {

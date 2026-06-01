@@ -1,4 +1,9 @@
-import { Vector3, Color3, Scene, Mesh, Engine, Color4, MeshBuilder } from "@babylonjs/core";
+import { Engine } from "@babylonjs/core/Engines/engine";
+import { Color3, Color4 } from "@babylonjs/core/Maths/math.color";
+import { Vector3 } from "@babylonjs/core/Maths/math.vector";
+import { MeshBuilder } from "@babylonjs/core/Meshes/meshBuilder";
+import { Mesh } from "@babylonjs/core/Meshes/mesh";
+import type { Scene } from "@babylonjs/core/scene";
 import { Rotate } from "./babylonjs-tiaratumgames-tools";
 
 export function DrawDebugLine(from: Vector3, to: Vector3, frames: number = Infinity, color?: Color3, scene?: Scene): Mesh {

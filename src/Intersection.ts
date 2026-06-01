@@ -13,7 +13,13 @@
     Mesh
 */
 
-import { Vector3, Matrix, Ray, Mesh, Plane, Quaternion, Axis, AbstractMesh, VertexBuffer } from "@babylonjs/core";
+import { Ray } from "@babylonjs/core/Culling/ray";
+import { VertexBuffer } from "@babylonjs/core/Buffers/buffer";
+import { Axis } from "@babylonjs/core/Maths/math.axis";
+import { Matrix, Quaternion, Vector3 } from "@babylonjs/core/Maths/math.vector";
+import { Plane } from "@babylonjs/core/Maths/math.plane";
+import { AbstractMesh } from "@babylonjs/core/Meshes/abstractMesh";
+import { Mesh } from "@babylonjs/core/Meshes/mesh";
 import { ProjectPointOnPlane, ProjectPointOnPlaneToRef, Barycentric, ProjectPointOnSegmentToRef, AngleFromToAround, DistancePointSegment, RotateInPlace, ProjectPointOnPathToRef } from "./babylonjs-tiaratumgames-tools";
 import { PlaneCollider } from "./Collider";
 import { MinMax } from "./Number";
